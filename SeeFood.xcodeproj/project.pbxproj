@@ -13,6 +13,7 @@
 		AF2E968B271E2144005E5210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2E9689271E2144005E5210 /* Main.storyboard */; };
 		AF2E968D271E2147005E5210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2E968C271E2147005E5210 /* Assets.xcassets */; };
 		AF2E9690271E2147005E5210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2E968E271E2147005E5210 /* LaunchScreen.storyboard */; };
+		AF2E9698271E2210005E5210 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9697271E2210005E5210 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF2E968C271E2147005E5210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2E968F271E2147005E5210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2E9691271E2147005E5210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2E9697271E2210005E5210 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AF2E968C271E2147005E5210 /* Assets.xcassets */,
 				AF2E968E271E2147005E5210 /* LaunchScreen.storyboard */,
 				AF2E9691271E2147005E5210 /* Info.plist */,
+				AF2E9697271E2210005E5210 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2E9688271E2144005E5210 /* ViewController.swift in Sources */,
+				AF2E9698271E2210005E5210 /* Inceptionv3.mlmodel in Sources */,
 				AF2E9684271E2144005E5210 /* AppDelegate.swift in Sources */,
 				AF2E9686271E2144005E5210 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2ZM85GBUK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2ZM85GBUK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
